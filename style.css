@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: none;
+}
+
+body {
+  min-height: 1000px;
+}
+
+header {
+  display: flexbox;
+}
+
+.nav_container {
+  background-color: whitesmoke;
+  position: fixed;
+  min-height: 50px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px 100px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin-top: 10px;
+  display: inline;
+  /*padding: 20px;*/
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  font-family: sans-serif;
+  margin-right: 5px;
+  background-color: aliceblue;
+  padding: 20px 30px;
+}
+
+li a:hover {
+  background-color: skyblue;
+  color: black;
+  font-family: sans-serif;
+  padding: 20px 30px;
+}
+
+#get_started {
+  margin-top: 20px;
+}
+
+#get_started > a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: sans-serif;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+#get_started > a:hover {
+  color: black;
+  background-color: skyblue;
+}
+
+.home {
+  display: flex;
+  background-image: url("background.png");
+  background-position: center;
+}
+
+.home > aside {
+  width: 50%;
+  min-height: 700px;
+  margin-top: 70px;
+}
+
+aside.lft {
+  padding-left: 70px;
+}
+
+aside.lft > h4 {
+  margin-top: 100px;
+  color: blue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+
+aside.lft > h2 {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+aside.lft > p {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Arial;
+}
+
+aside.img {
+}
+
+#service {
+  margin: 70px 0px;
+  display: flex;
+  min-height: 500px;
+}
+
+.homeflex {
+  background-color: rgba(228, 222, 222, 0.993);
+  border-radius: 5px;
+  height: 500px;
+  width: 30%;
+  margin: 0px 3%;
+}
+
+#abt {
+  display: flex;
+  background-color: snow;
+  height: 500px;
+}
+
+#auth {
+  background-color: rgba(228, 222, 222, 0.993);
+  min-height: 500px;
+}
+
+#sub {
+  background-color: snow;
+  min-height: 450px;
+}
+
+#pricing {
+  background-color: rgba(228, 222, 222, 0.993);
+  min-height: 500px;
+}
+
+#faq {
+  background-color: snow;
+  min-height: 500px;
+}
+
+#cont {
+  background-color: rgba(228, 222, 222, 0.993);
+  min-height: 500px;
+}
+
+footer {
+  background-color: snow;
+  min-height: 100px;
+}
